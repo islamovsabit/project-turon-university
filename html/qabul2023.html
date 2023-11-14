@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <!-- copy link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- copy link -->
+
+    <title>Qabul 2023</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__content">
+                <div class="nav_left">
+                    <img src="../img/navimg.png" alt="" />
+                </div>
+                <div class="nav_right">
+                    <ul class="nav_ul">
+                        <li class="nav__ul_li">
+                            <a class="nav__ul-a" href="#">Asosiy</a>
+                        </li>
+                        <li class="nav__ul_li">
+                            <a class="nav__ul-a" href="news.html">Yangiliklar</a>
+                        </li>
+                        <li class="nav__ul_li">
+                            <a class="nav__ul-a" href="#">O'quv faoliyati</a>
+                        </li>
+                        <li class="nav__ul_li">
+                            <a class="nav__ul-a" href="#">Talabalarga</a>
+                        </li>
+                        <li class="nav__ul_li">
+                            <div class="dropdown">
+                                <button class="dropdown-btn backnone">
+                                    <a class="dropdown-lang active" href="">Abituriyentlarga</a>
+                                    <img src="../icons/downIcon.png" alt="">
+                                </button>
+                                <ul class="dropdown-content">
+                                    <li><a class="dropdown-lang" href="./qabul2022.html">Qabul 2022</a></li>
+                                    <li><a class="dropdown-lang" href="./qabul2023.html">Qabul 2023</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__ul_li">
+                            <div class="dropdown">
+                                <button id="dropdown-btn-one" class="dropdown-btn backnone">
+                                    <a class="dropdown-lang active" href="#!">Hujjat topshirish</a>
+                                    <img src="../icons/downIcon.png" alt="">
+                                </button>
+                                <ul id="dropdown_content_one" class="dropdown-content">
+                                    <li><a class="dropdown-lang" href="">Hujjat topshirish tartibi</a></li>
+                                    <li><a class="dropdown-lang" href="document.html">Hujjat topshirish</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__ul_li">
+                            <a class="nav__ul-a" href="#">Kontaktlar</a>
+                        </li>
+                    </ul>
+
+                    <div class="dropdown">
+                        <button id="dropBtn" class="dropdown-btn">
+                            <a id="dropdown-lang-btn" class="dropdown-lang  active" href="">Uz</a>
+                            <img src="../icons/downIcon.png" alt="">
+                        </button>
+                        <ul id="DropContentTwo" class="dropdown-content-two">
+                            <li><a class="dropdown-lang" href="">Ru</a></li>
+                            <li><a class="dropdown-lang" href="">En</a></li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="right_btn">Kirish</a>
+
+                    <button class="nav_open-btn">
+                        <span class="nav_span"></span>
+                        <span class="nav_span"></span>
+                        <span class="nav_span"></span>
+                    </button>
+
+
+                    <nav class="media_menu">
+                        <ul class="media_list">
+                            <li class="media_item">
+                                <a href="#!" class="media_link active">Asosiy</a>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link">Yangiliklar</a>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link">O'quv faoliyati</a>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link">Talabalarga</a>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link ab">Abituriyentlarga <span
+                                        class="media_link-span"></span></a>
+                                <ul class="media_list-two">
+                                    <li class="media_item">
+                                        <a href="#!" class="media_link-two media_link">Qabul 2023</a>
+                                    </li>
+                                    <li class="media_item">
+                                        <a href="#!" class="media_link-two media_link">Qabul 2022</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link doc">Hujjat topshirish <span
+                                        class="media_link-span"></span></a>
+                                <ul id="media_list-two" class="media_list-two">
+                                    <li class="media_item">
+                                        <a href="#!" class="media_link-two media_link ">Hujjat topshirish tartibi</a>
+                                    </li>
+                                    <li class="media_item">
+                                        <a href="#!" class="media_link-two media_link">Hujjat topshirish</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link">Kontaktlar</a>
+                            </li>
+                            <a class="media__right_btn">Kirish</a>
+                        </ul>
+                        <button class="media_btn">
+                            <span class="media_span-one"></span>
+                            <span class="media_span-two"></span>
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="dangers">
+        <div class="container">
+            <div class="acceptance_link">
+                <a href="#!" class="acceptance-link">Bosh sahifa</a>
+                <span class="acceptance-link-span"></span>
+                <p class="acceptance-link-text">Qabul 2023</p>
+            </div>
+            <div class="acceptance_title-blog" data-aos="fade-up" data-aos-duration="1200">
+                <h2 class="acceptance-page-title">Qabul 2023</h2>
+            </div>
+            <div class="dangers-danger" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                <h4 class="dangers-danger-title">HURMATLI ABITURIYENTLAR!!!</h4>
+                <p class="dangers-danger-text">TURON Universitetida 2023-2024 o’quv yili uchun qabul komissiyasi
+                    2023-yil iyun oyidan o’z faoliyatini boshlaganini ma’lum qilamiz. Siz quyidagi ta’lim
+                    yo’nalishlariga hujjat topshirishingiz mumkin:</p>
+            </div>
+            <div class="dangers-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                <div class="dangers-card-exs" data-id="1">
+                    <h4 class="dangers-card-title">Xalqaro munosabatlar</h4>
+                    <a href="#!" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="2">
+                    <h4 class="dangers-card-title">Xorijiy mamlakatlar iqtisodiyoti</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="3">
+                    <h4 class="dangers-card-title">Pedagogika va psixologiya</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="4">
+                    <h4 class="dangers-card-title">Iqtisodiyot</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="5">
+                    <h4 class="dangers-card-title">Ingliz tili filologiyasi</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="6">
+                    <h4 class="dangers-card-title">Xitoy tili filologiyasi</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="7">
+                    <h4 class="dangers-card-title">Arab tili filologiyasi</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="8">
+                    <h4 class="dangers-card-title">Turk tili filologiyasi</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="9">
+                    <h4 class="dangers-card-title">Fransuz tili filologiyasi</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="10">
+                    <h4 class="dangers-card-title">O'zbek tili filologiyasi</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="11">
+                    <h4 class="dangers-card-title">Rus tili filologiyasi</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+                <div class="dangers-card-exs" data-id="12">
+                    <h4 class="dangers-card-title">Economics and Management</h4>
+                    <a href="./document.html" class="dangers-card-link">Hujjat topshirsh <span class="dangers-card-span"></span></a>
+                </div>
+            </div>
+            <button class="dangers-card-btn">
+                <a href="./document.html" class="dangers-card-btn-link">Hujjat topshirish</a>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="main__form" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1300">
+        <div class="container">
+            <div class="main__form-content">
+                <div class="main__form-left">
+                    <p class="form__left-text">Biz bilan yorqin kelajak sari muhim qadam tashlang!</p>
+                </div>
+                <div class="main__form-right">
+
+                    <div class="form__right-theme">
+                        <h1 class="form__right-h1">So'rov qoldiring</h1>
+                        <p class="form-right-text">Biz siz bilan tez fursatda qayta aloqaga chiqamiz</p>
+                    </div>
+
+                    <form class="form" action="">
+
+                        <div class="form__mini">
+                            <div class="mini">
+                                <label for="">Ismingiz</label>
+                                <br>
+                                <input class="form__inp" type="text" placeholder="Abdulla">
+                            </div>
+
+                            <div class="mini">
+                                <label for="">Familiyangiz</label>
+                                <br>
+                                <input class="form__inp" type="text" placeholder="Abdullayev">
+                            </div>
+                        </div>
+
+                        <div class="form__mini">
+                            <div class="mini">
+                                <label for="">Email</label>
+                                <br>
+                                <input class="form__inp" type="email" placeholder="Placeholder text">
+                            </div>
+
+                            <div class="mini">
+                                <label for="">Telefon raqam</label>
+                                <br>
+                                <input class="form__inp" type="number" placeholder="+998 (--) --- -- --">
+                            </div>
+                        </div>
+
+                        <div class="btn_clas">
+                            <a href="" class="form__send-btn">Yuborish</a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="acceptance-slider">
+        <div class="container">
+            <div class="acceptance_slider-title-blog" data-aos="fade-up"
+            data-aos-duration="1200">
+                <h2 class="acceptance-page-title">O’qish jarayonidan lavhalar</h2>
+            </div>
+            <div class="acceptance-swipper">
+                <div class="swiper mySwiper" data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-duration="1200">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="../img/slider_1.png" class="acceptance-slider-img" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/slider_2.png" class="acceptance-slider-img" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/slider_3.png" class="acceptance-slider-img" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/slider_1.png" class="acceptance-slider-img" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/slider_2.png" class="acceptance-slider-img" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/slider_3.png" class="acceptance-slider-img" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="acceptance-window">
+        <div>
+            <img src="#!" class="acceptance-window-logo" alt="" />
+            <i class="acceptance-window-icon">
+                <span class="acceptance-window-icon-span-one"></span>
+                <span class="acceptance-window-icon-span-two"></span>
+            </i>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="../js/qabul.js"></script>
+    
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__left">
+                    <img src="../img/navimg.png" alt="">
+                    <p class="footer__left-p">Turon universiteti 2022 yilda Oʻzbekistonda yuqori malakali,
+                        raqobatbardosh kadrlar
+                        tayyorlash maqsadida Qarshi shahrida tashkil etilgan bo'lib hozirda 12 ta ta'lim yo'nalishlarida
+                        mutaxassis
+                        tayyorlashni niyat qilgan Universitet.</p>
+                    <div class="mini__icons">
+                        <a class="icons" href="#"><img src="../icons/footer_telegram.png" alt=""></a>
+                        <a class="icons" href="#"><img src="../icons/footer_insta.png" alt=""></a>
+                        <a class="icons" href="#"><img src="../icons/footer_facebook.png" alt=""></a>
+                        <a class="icons" href="#"><img src="../icons/footer_youtube.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer__center">
+                    <h1 class="footer__center_text">Foydali linklar</h1>
+                    <ul class="footer__center-ul">
+                        <li><a class="footer__center-link" href="#">Asosiy</a></li>
+                        <li><a class="footer__center-link" href="#">Yangiliklar</a></li>
+                        <li><a class="footer__center-link" href="#">O'quv faoliyati</a></li>
+                        <li><a class="footer__center-link" href="#">Talabalarga</a></li>
+                        <li><a class="footer__center-link" href="#">Abituriyentlarga</a></li>
+                        <li><a class="footer__center-link" href="#">Hujjat topshirish</a></li>
+                        <li><a class="footer__center-link" href="#">Elektron kutubxona</a></li>
+                        <li><a class="footer__center-link" href="#">Kontaktlar</a></li>
+                    </ul>
+                </div>
+                <div class="footer__right">
+                    <h1 class="footer__center_text">Kontaktlar</h1>
+
+                    <div class="footer__right-mini">
+                        <div class="right__mini-icons">
+                            <img src="../icons/contact_icon1.png" alt="">
+                            <h1 class="right__mini-text">Manzilimiz</h1>
+                        </div>
+                        <p class="right__mini-adress">Qashqadaryo viloyati, Qarshi shahri,Nasaf ko‘chasi, 1/14-uy</p>
+                    </div>
+
+                    <div class="footer__right-mini">
+                        <div class="right__mini-icons">
+                            <img src="../icons/contact_icon2.png" alt="">
+                            <h1 class="right__mini-text">Telefon raqam</h1>
+                        </div>
+                        <p class="right__mini-adress">(88) 214 88 80 (88) 012 88 80</p>
+                    </div>
+
+                    <div class="footer__right-mini">
+                        <div class="right__mini-icons">
+                            <img src="../icons/footer_icon3.png" alt="">
+                            <h1 class="right__mini-text">E-mail</h1>
+                        </div>
+                        <p class="right__mini-adress">turonuniversity@gmail.com</p>
+                    </div>
+
+                    <div class="footer__right-mini">
+                        <div class="right__mini-icons">
+                            <img src="../icons/footer_icon34.png" alt="">
+                            <h1 class="right__mini-text">Ish vaqti</h1>
+                        </div>
+                        <p class="right__mini-adress">Dushanba - Juma : 9-00 - 18-00​</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="footer__line">
+                © 2022 by Turon university
+            </div>
+
+        </div>
+
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        
+        350: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        
+        375: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        
+        400: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        
+        450: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        
+        
+        500: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        950: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      }
+    });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

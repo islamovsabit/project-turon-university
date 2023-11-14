@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Yangliklar 2023-2024 o'quv yili uchun qabul jarayoni boshlandi</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__content">
+                <div class="nav_left">
+                    <img src="../img/navimg.png" alt="" />
+                </div>
+                <div class="nav_right">
+                    <ul class="nav_ul">
+                        <li class="nav__ul_li">
+                            <a class="nav__ul-a" href="#">Asosiy</a>
+                        </li>
+                        <li class="nav__ul_li">
+                            <a class="nav__ul-a" href="news.html">Yangiliklar</a>
+                        </li>
+                        <li class="nav__ul_li">
+                            <a class="nav__ul-a" href="./o'quvfaolyat.html">O'quv faoliyati</a>
+                        </li>
+                        <li class="nav__ul_li">
+                            <a class="nav__ul-a" href="#">Talabalarga</a>
+                        </li>
+                        <li class="nav__ul_li">
+                            <div class="dropdown">
+                                <button class="dropdown-btn backnone">
+                                    <a class="dropdown-lang active" href="">Abituriyentlarga</a>
+                                    <img src="../icons/downIcon.png" alt="">
+                                </button>
+                                <ul class="dropdown-content">
+                                    <li><a class="dropdown-lang" href="./qabul2022.html">Qabul 2022</a></li>
+                                    <li><a class="dropdown-lang" href="./qabul2023.html">Qabul 2023</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__ul_li">
+                            <div class="dropdown">
+                                <button id="dropdown-btn-one" class="dropdown-btn backnone">
+                                    <a class="dropdown-lang active" href="#!">Hujjat topshirish</a>
+                                    <img src="../icons/downIcon.png" alt="">
+                                </button>
+                                <ul id="dropdown_content_one" class="dropdown-content">
+                                    <li><a class="dropdown-lang" href="">Hujjat topshirish tartibi</a></li>
+                                    <li><a class="dropdown-lang" href="document.html">Hujjat topshirish</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__ul_li">
+                            <a class="nav__ul-a" href="#">Kontaktlar</a>
+                        </li>
+                    </ul>
+
+                    <div class="dropdown">
+                        <button id="dropBtn" class="dropdown-btn">
+                            <a id="dropdown-lang-btn" class="dropdown-lang  active" href="">Uz</a>
+                            <img src="../icons/downIcon.png" alt="">
+                        </button>
+                        <ul id="DropContentTwo" class="dropdown-content-two">
+                            <li><a class="dropdown-lang" href="">Ru</a></li>
+                            <li><a class="dropdown-lang" href="">En</a></li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="right_btn">Kirish</a>
+
+                    <button class="nav_open-btn">
+                        <span class="nav_span"></span>
+                        <span class="nav_span"></span>
+                        <span class="nav_span"></span>
+                    </button>
+
+
+                    <nav class="media_menu">
+                        <ul class="media_list">
+                            <li class="media_item">
+                                <a href="#!" class="media_link active">Asosiy</a>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link">Yangiliklar</a>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link">O'quv faoliyati</a>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link">Talabalarga</a>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link ab">Abituriyentlarga <span
+                                        class="media_link-span"></span></a>
+                                <ul class="media_list-two">
+                                    <li class="media_item">
+                                        <a href="#!" class="media_link-two media_link">Qabul 2023</a>
+                                    </li>
+                                    <li class="media_item">
+                                        <a href="#!" class="media_link-two media_link">Qabul 2022</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link doc">Hujjat topshirish <span
+                                        class="media_link-span"></span></a>
+                                <ul id="media_list-two" class="media_list-two">
+                                    <li class="media_item">
+                                        <a href="#!" class="media_link-two media_link ">Hujjat topshirish tartibi</a>
+                                    </li>
+                                    <li class="media_item">
+                                        <a href="#!" class="media_link-two media_link">Hujjat topshirish</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="media_item">
+                                <a href="#!" class="media_link">Kontaktlar</a>
+                            </li>
+                            <a class="media__right_btn">Kirish</a>
+                        </ul>
+                        <button class="media_btn">
+                            <span class="media_span-one"></span>
+                            <span class="media_span-two"></span>
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="viewNews">
+        <div class="container">
+            <div class="viewNews_link">
+                <a href="./index.html" class="viewNews-link">Bosh sahifa</a>
+                <span class="viewNews-link-span"></span>
+                <a href="./news.html" class="viewNews-link viewNews-child">Yangliklar</a>
+                <span class="viewNews-link-span"></span>
+                <p class="viewNews-link-text">2023-2024 o'quv yili uchun qabul jarayoni boshlandi</p>
+            </div>
+            <div class="container-plus">
+                <div class="viewNews_post">
+                    <div class="viewNews_post-title-group" data-aos="fade-up" data-aos-duration="1200" >
+                        <h2 class="viewNews_post-title">2023-2024 o'quv yili uchun qabul jarayoni boshlandi</h2>
+                        <button class="viewNews_post-btn">Blog postlar </button>
+                        <div class="viewNews_post-data">
+                            <img src="../images/Placeholder.png" alt="">
+                            <h6 class="viewNews_post-data-title">TU Pressa</h6>
+                            <p class="viewNews_post-data-text">· 13/05/2020 <span>· 12m read</span></p>
+                        </div>
+                    </div>
+                    <div class="viewNews_group">
+                        <img src="../images/image_1.png" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200" class="viewNews_group-logo" alt="">
+                        <p class="viewNews_group-test" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">Joriy yilning 20 mayidan 5 iyun kunga qadar Turon universiteti
+                            Xalqaro aloqalar bo‘limi boshlig‘i G‘.L.Yoziev Fransiyaning INSHEA universitetida bo‘lib
+                            qaytdi. Safar davomida INSHEA vakillari bilan turli darajadagi uchrashuvlar o‘tkazildi.
+                            Uchrashuvlarda Turon universitetida inklyuziv ta’limni joriy etishda yetakchi xorijiy
+                            universitetlar tajribasini o‘rganib, uni Turon universitetida joriy etish bo‘ycha fikrlar
+                            almashildi.</p>
+                        <img src="../images/image_4.png" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200" class="viewNews_group-logo" alt="">
+                        <p class="viewNews_group-test" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">Uchrashuv natijalariga ko‘ra yangi o‘quv yilidan boshlab,
+                            inklyuziv ta’limni Qarshi shahrida rivojlantirish uchun INSHEA bilan hamkorlikda
+                            mutaxassislar tayorlash hamda ularni malakasini oshirish yo‘lga qo‘yiladi. Shu bilan birga,
+                            yangi o‘quv yilidan boshlab Turon universitetida imkoniyati cheklangan talabalarni
+                            imtiyozlar asosida o‘qishga qabul qilish hamda ularni Fransiyada qisqa muddatli tanishuv
+                            amaliyotlariga yuborish reja qilindi.</p>
+                        <img src="../images/image_2.png" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200" class="viewNews_group-logo" alt="">
+                        <img src="../images/image 3.png" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200" class="viewNews_group-logo" alt="">
+                        <p class="viewNews_group-test" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">Undan tashqari Fransiya Senati faoliyati bilan ham yaqindan
+                            tanishildi hamda senatorlar bilan B2B uchrashuvlar o‘tkazildi. Buning natijasida Turon
+                            universitetida Xalqaro munosabatlar ta’lim yo‘nalishini rivojlantirish hamda istiqbolda
+                            Fransiya universitetlari bilan hamkorlikda Xalqaro huquq ta’lim yo‘nalishini tashkil etish
+                            kabi bir qator kelishuvlarga erishildi. <br><br>
+                            Ma’lumot uchun: INSHEA Fransiyada inklyuziv ta’limga ixtisoslashgan yagona universitet
+                            hisoblanib, imkoniyati cheklanganga ta’lim berish bo‘yicha katta bazaga va tajribaga ega.
+                        </p>
+                    </div>
+                    <div class="viewNews_icon-group" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400" >
+                        <div class="viewNews_icons">
+                            <img src="../images/facebook.png" alt="">
+                            <img src="../images/in.png" alt="">
+                            <img src="../images/twitter.png" alt="">
+                            <img src="../images/Group 55872.png" alt="">
+                        </div>
+                        
+                    </div>
+                     
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__left">
+                    <img src="../img/navimg.png" alt="">
+                    <p class="footer__left-p">Turon universiteti 2022 yilda Oʻzbekistonda yuqori malakali,
+                        raqobatbardosh kadrlar
+                        tayyorlash maqsadida Qarshi shahrida tashkil etilgan bo'lib hozirda 12 ta ta'lim yo'nalishlarida
+                        mutaxassis
+                        tayyorlashni niyat qilgan Universitet.</p>
+                    <div class="mini__icons">
+                        <a class="icons" href="#"><img src="../icons/footer_telegram.png" alt=""></a>
+                        <a class="icons" href="#"><img src="../icons/footer_insta.png" alt=""></a>
+                        <a class="icons" href="#"><img src="../icons/footer_facebook.png" alt=""></a>
+                        <a class="icons" href="#"><img src="../icons/footer_youtube.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer__center">
+                    <h1 class="footer__center_text">Foydali linklar</h1>
+                    <ul class="footer__center-ul">
+                        <li><a class="footer__center-link" href="#">Asosiy</a></li>
+                        <li><a class="footer__center-link" href="#">Yangiliklar</a></li>
+                        <li><a class="footer__center-link" href="#">O'quv faoliyati</a></li>
+                        <li><a class="footer__center-link" href="#">Talabalarga</a></li>
+                        <li><a class="footer__center-link" href="#">Abituriyentlarga</a></li>
+                        <li><a class="footer__center-link" href="#">Hujjat topshirish</a></li>
+                        <li><a class="footer__center-link" href="#">Elektron kutubxona</a></li>
+                        <li><a class="footer__center-link" href="#">Kontaktlar</a></li>
+                    </ul>
+                </div>
+                <div class="footer__right">
+                    <h1 class="footer__center_text">Kontaktlar</h1>
+
+                    <div class="footer__right-mini">
+                        <div class="right__mini-icons">
+                            <img src="../icons/contact_icon1.png" alt="">
+                            <h1 class="right__mini-text">Manzilimiz</h1>
+                        </div>
+                        <p class="right__mini-adress">Qashqadaryo viloyati, Qarshi shahri,Nasaf ko‘chasi, 1/14-uy</p>
+                    </div>
+
+                    <div class="footer__right-mini">
+                        <div class="right__mini-icons">
+                            <img src="../icons/contact_icon2.png" alt="">
+                            <h1 class="right__mini-text">Telefon raqam</h1>
+                        </div>
+                        <p class="right__mini-adress">(88) 214 88 80 (88) 012 88 80</p>
+                    </div>
+
+                    <div class="footer__right-mini">
+                        <div class="right__mini-icons">
+                            <img src="../icons/footer_icon3.png" alt="">
+                            <h1 class="right__mini-text">E-mail</h1>
+                        </div>
+                        <p class="right__mini-adress">turonuniversity@gmail.com</p>
+                    </div>
+
+                    <div class="footer__right-mini">
+                        <div class="right__mini-icons">
+                            <img src="../icons/footer_icon34.png" alt="">
+                            <h1 class="right__mini-text">Ish vaqti</h1>
+                        </div>
+                        <p class="right__mini-adress">Dushanba - Juma : 9-00 - 18-00​</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="footer__line">
+                © 2022 by Turon university
+            </div>
+
+        </div>
+
+
+    </footer>
+    <script src="../js/script.js"></script>
+    
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
